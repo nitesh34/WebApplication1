@@ -13,7 +13,10 @@ namespace WebApplication1.Controllers
     public class EmployeesController : Controller
     {
         private WebAppEntities db = new WebAppEntities();
-
+        /// <summary>
+        /// Get Employee list
+        /// </summary>
+        /// <returns>List of employee</returns>
         // GET: Employees
         public ActionResult Index()
         {
